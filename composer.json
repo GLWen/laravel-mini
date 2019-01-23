@@ -1,12 +1,4 @@
 {
-  "authors": [
-    {
-      "name": "GerryWen",
-      "email": "blog@gerrywen.com",
-      "homepage": "http://blog.gerrywen.com",
-      "role": "Developer"
-    }
-  ],
   "name": "GerryWen/laravel-mini",
   "type": "project",
   "description": "The Laravel Framework.",
@@ -17,6 +9,18 @@
     "mini"
   ],
   "license": "MIT",
+  "support": {
+    "issues": "https://github.com/GLWen/laravel-mini/issues",
+    "source": "https://github.com/GLWen/laravel-mini"
+  },
+  "authors": [
+    {
+      "name": "GerryWen",
+      "email": "blog@gerrywen.com",
+      "homepage": "http://blog.gerrywen.com",
+      "role": "Developer"
+    }
+  ],
   "version": "1.0.0",
   "require": {
     "php": "^7.1.3",
