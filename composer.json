@@ -1,0 +1,52 @@
+{
+  "authors": [
+    {
+      "name": "GerryWen",
+      "email": "blog@gerrywen.com",
+      "homepage": "http://blog.gerrywen.com",
+      "role": "Developer"
+    }
+  ],
+  "name": "GerryWen/laravel-mini",
+  "type": "project",
+  "description": "The Laravel Framework.",
+  "keywords": [
+    "framework",
+    "laravel",
+    "laravel-mini",
+    "mini"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "require": {
+    "php": "^7.1.3",
+    "monolog/monolog": "^1.24",
+    "symfony/http-kernel": "^4.1",
+    "symfony/console": "^4.1",
+    "symfony/debug": "^4.1",
+    "symfony/http-foundation": "^4.1",
+    "symfony/routing": "^4.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Illuminate\\": "src/Illuminate/"
+    }
+  },
+  "autoload-dev": {
+    "files": [
+      "src/Illuminate/Foundation/helpers.php",
+      "src/Illuminate/Support/helpers.php"
+    ],
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
